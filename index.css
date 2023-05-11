@@ -1,3 +1,27 @@
+.pointer
+{
+    cursor: url(./sun.png),pointer;
+}
 .name{
     color:blue;
 }
+
+.heading1{
+    color:orange;
+    
+}
+
+
+.card-body {
+    font-family: Arial;
+    font-size: 15px;
+    animation: fadeIn 3s;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
